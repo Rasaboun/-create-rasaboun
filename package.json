@@ -1,6 +1,6 @@
 {
   "name": "@rasaboun/create-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI to create Astro or Next project",
   "main": "index.js",
   "type": "module",
@@ -14,7 +14,7 @@
   "author": "Rasaboun",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rasaboun/create-template"
+    "url": "git+https://github.com/Rasaboun/create-template.git"
   },
   "license": "ISC",
   "dependencies": {

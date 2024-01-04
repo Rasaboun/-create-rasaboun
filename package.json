@@ -1,5 +1,5 @@
 {
-  "name": "@rasaboun/create",
+  "name": "create-rasaboun",
   "version": "0.0.1",
   "description": "CLI to create Astro or Next project",
   "main": "index.js",

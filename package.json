@@ -1,7 +1,7 @@
 {
   "name": "@rasaboun/create",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "CLI to create Astro or Next project",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,11 @@
   "bin": {
     "create-rasaboun": "bin/index.js"
   },
-  "author": "",
+  "author": "Rasaboun",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rasaboun/-create-rasaboun.git"
+  },
   "license": "ISC",
   "dependencies": {
     "@clack/prompts": "^0.7.0",

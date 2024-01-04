@@ -1,14 +1,7 @@
 #! /usr/bin/env node
 import { intro, outro, text, isCancel, cancel, select, spinner, multiselect, } from "@clack/prompts";
 import { existsSync } from "node:fs";
-import chalk from "chalk";
 import { spawn } from "node:child_process";
-const logo = "  _____                 _                       \r\n |  __ \\               | |                      \r\n | |__) |__ _ ___  __ _| |__   ___  _   _ _ __  \r\n |  _  // _` / __|/ _` | '_ \\ / _ \\| | | | '_ \\ \r\n | | \\ \\ (_| \\__ \\ (_| | |_) | (_) | |_| | | | |\r\n |_|  \\_\\__,_|___/\\__,_|_.__/ \\___/ \\__,_|_| |_| \n";
-const describe = chalk.whiteBright("                                   " +
-    chalk.black(" Next") +
-    " | " +
-    chalk.hex("#D14D7E").visible("Astro \n"));
-console.log(chalk.whiteBright(logo) + describe);
 intro(`create-my-app`);
 const s = spinner();
 const name = await text({

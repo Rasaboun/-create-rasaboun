@@ -1,11 +1,11 @@
 {
-  "name": "create-rasaboun-template",
+  "name": "@rasaboun/create-template",
   "version": "0.0.2",
   "description": "CLI to create Astro or Next project",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npx tsc && npx ray"
+    "build": "npx tsc"
   },
   "keywords": [],
   "bin": {
@@ -14,15 +14,15 @@
   "author": "Rasaboun",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rasaboun/-create-rasaboun.git"
+    "url": "https://github.com/Rasaboun/create-template"
   },
   "license": "ISC",
   "dependencies": {
     "@clack/prompts": "^0.7.0",
-    "@types/node": "^18.0.6",
     "chalk": "^5.3.0"
   },
   "devDependencies": {
+    "@types/node": "^18.0.6",
     "typescript": "^5.3.3"
   }
 }

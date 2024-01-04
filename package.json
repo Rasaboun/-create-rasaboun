@@ -1,5 +1,5 @@
 {
-  "name": "create-rasaboun",
+  "name": "create-rasaboun-template",
   "version": "0.0.1",
   "description": "CLI to create Astro or Next project",
   "main": "index.js",

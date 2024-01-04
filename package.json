@@ -1,6 +1,6 @@
 {
   "name": "@rasaboun/create-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI to create Astro or Next project",
   "main": "index.js",
   "type": "module",

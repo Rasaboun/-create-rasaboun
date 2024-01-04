@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "bin": {
-    "create-rasaboun": "bin/index.js"
+    "create-template": "bin/index.js"
   },
   "author": "Rasaboun",
   "repository": {

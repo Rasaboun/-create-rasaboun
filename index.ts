@@ -11,7 +11,6 @@ import {
   multiselect,
 } from "@clack/prompts";
 import { existsSync } from "node:fs";
-import chalk from "chalk";
 import { spawn } from "node:child_process";
 
 intro(`create-my-app`);
